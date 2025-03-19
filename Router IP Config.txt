@@ -1,0 +1,18 @@
+
+Account Department
+
+Router(config)#int g0/0
+Router(config-if)#ip add 192.168.40.1 255.255.255.128
+Router(config-if)#no shut
+Router(config-if)#do wr
+
+
+Delivery Department                                        
+
+
+
+
+Router(config)#int g0/1
+Router(config-if)#ip add 192.168.40.129 255.255.255.128
+Router(config-if)#no shut
+Router(config-if)#do wr
